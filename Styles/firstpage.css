@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+
+}
+
+.main-container{
+    position: relative;
+    background-image: url('../img/main_image.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+}
+
+.main-text-holder{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    background-color: rgba(255, 255, 255, 0.516);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 20px;
+    width: 40%;
+    height: 30%;
+    font-family: 'Caveat', cursive;
+    font-size: xx-large;
+    padding-top: 70px;
+    padding-left: 30px;
+
+}
+

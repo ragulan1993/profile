@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Styles/common.css">
+    <link rel="stylesheet" href="Styles/query.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="logo-container">
+            <a href="firstpage.html"><img src="img/logo.jpg" alt="logo"></a>
+        </div>
+        <div class="link-container" >
+            <a href="cv.html" class="nav-links">CV</a>
+            <a href="ideal.html" class="nav-links">Ideal Job</a>
+            <a href="query.html" class="nav-links active">Query</a>
+            <a href="svg.html" class="nav-links">SVG Diagram</a>
+
+        </div>
+    </div>
+    <div class="query-container">
+        <div class="query-image-holder">
+            <img src="img/mail.png" alt="mail">
+
+        </div>
+        <div class="query-form-holder">
+            <form onsubmit="isValid(event)">
+
+                <input type="text" id="name" placeholder="Name"> <br/>
+                <input type="text" id="email" placeholder="Email"><br/>
+                <label>Subject</label>
+                <div>
+                    <input type="radio" id="programming-experience" name="subject" value="Programming experience">
+                    <label for="programming-experience" class="radio-label">Programming Experience</label><br/>
+                    <input type="radio" id="civil-experience" name="subject" value="Civil experience">
+                    <label for="civil-experience" class="radio-label">Civil Engineering Experience</label><br/>
+                    <input type="radio" id="skills" name="subject" value="Transferable skills">
+                    <label for="skills" class="radio-label">Transferable Skills</label><br/>
+                    <input type="radio" id="other" name="subject" value="Other">
+                    <label for="other" class="radio-label">Other</label><br/>
+                </div>
+                <textarea name="query" id="query" cols="30" rows="10" placeholder="Message"></textarea>
+                <div class="button-holder">
+                    <input type="reset">
+                    <button>Check</button>
+                    
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="details-holder" id="detail-holder">
+        <div class="details">
+            <div class="holder" id="name-holder">
+                Name: 
+            </div>
+            <div class="holder" id="email-holder">
+                Email: 
+            </div>
+            <div class="holder" id="subject-holder">
+                Subject:
+            </div>
+            <div class="holder" id="details-holder">
+                Details:
+            </div>
+            <div class="button-holder">
+                <button id="edit-button">Edit</button>
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+        
+
+    </div>
+    <footer>
+        K. Ragulan - 20220768 - w1953553
+
+    </footer>
+    <script src="scripts/query.js"></script>
+    
+</body>
+</html>

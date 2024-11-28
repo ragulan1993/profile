@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap');
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-image: url('../img/query-background.jpg');
+    background-size: cover;
+
+}
+
+.query-container{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-48%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+}
+
+.query-image-holder{
+    padding: 40px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.query-image-holder img{
+    width: 300px;
+}
+
+.query-form-holder{
+    padding: 30px;
+}
+
+.query-form-holder form{
+    padding: 10px;
+}
+.query-form-holder input[type = text]{
+    width: 250px;
+    padding: 5px;
+    font-size: 14px;
+    margin: 10px 0px;
+    border-radius: 4px;
+}
+
+.query-form-holder div{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.query-form-holder textarea{
+    width: 250px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    border-radius: 4px;
+}
+
+
+.button-holder{
+    display: flex;
+    align-items: center;
+}
+
+.button-holder input[type=submit]{
+    margin-left: auto;
+}
+
+.button-holder input[type=reset]{
+    margin-right: auto;
+}
+
+
+.details-holder{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.73);
+}
+
+.details{
+    width: 50vw;
+    height: 70vh;
+    background-color: rgb(240, 248, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: relative;
+
+}
+
+.holder{
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 10px 0px;
+}
+
+.button-holder button{
+    margin: 10px 40px;
+    width: 50px;
+}

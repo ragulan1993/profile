@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+/*To Select all tags*/
+*{
+    margin: 0;
+}
+
+body {
+    height:100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    
+}
+
+.content-holder{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    display: flex;
+    font-family: 'Ysabeau SC', sans-serif;
+
+}
+
+.content-holder img {
+    height: 300px;
+}
+
+.text-holder{
+    padding-top: 50px;
+    margin-left: 40px;
+}
+
+.text-holder h1 {
+    font-size: 50px;
+}
+
+.text-holder h3 {
+    font-size: 30px;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+

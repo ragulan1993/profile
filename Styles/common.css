@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+*{margin:0;}
+
+.nav-container{
+    display: flex;
+    height: 60px;
+    background-color: #252525;
+    color: white;
+    padding-left: 60px;
+}
+
+.logo-container{
+    padding: 5px 0;
+}
+
+.logo-container img{
+    height: 50px;
+}
+
+.link-container{
+    margin-left: 55%;
+    vertical-align: middle;
+    padding-top: 20px;
+
+}
+
+.nav-links{
+    text-decoration: none; /* Remove underline */
+    color: white;
+    padding-left: 35px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.link-container a:hover{
+    color: rgb(190, 190, 190);
+}
+
+.active{
+    color:rgb(190, 190, 190) ;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
